@@ -13,7 +13,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/virtual-business-card.git
+git clone (https://github.com/RicKanjilal/Virtual-Business-Card.git)
 Open index.html in your Browser:
 
 Open the index.html file in your preferred web browser to view the virtual business card.

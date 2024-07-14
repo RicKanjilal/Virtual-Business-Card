@@ -28,7 +28,7 @@ HTML
 CSS
 Google Fonts (Roboto)
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+no licence
 
 Acknowledgments
 This project was inspired by the need for a modern and digital way to share contact information.

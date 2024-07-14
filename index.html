@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Business Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #007BFF;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .title {
+            font-size: 1.2em;
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .company {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px 0;
+            color: #ffffff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact button:hover {
+            background-color: #0056b3;
+        }
+
+        .contact button a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .emoji {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="your-photo.jpg" alt="Your Photo" class="profile-pic">
+        <h1>Your Name</h1>
+        <p class="title">Your Job Title</p>
+        <p class="company">Your Company</p>
+        <div class="contact">
+            <button><a href="mailto:your-email@example.com"><span class="emoji">📧</span>Email</a></button>
+            <button><a href="https://www.linkedin.com/in/your-profile" target="_blank"><span class="emoji">💼</span>LinkedIn</a></button>
+            <button><a href="https://github.com/your-profile" target="_blank"><span class="emoji">👨‍💻</span>GitHub</a></button>
+            <button><a href="https://twitter.com/your-profile" target="_blank"><span class="emoji">🐦</span>Twitter</a></button>
+        </div>
+    </div>
+</body>
+</html>
